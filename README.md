@@ -1,11 +1,3 @@
-# LoveBook
-
-## Table of contents
-
-- [Introduction](#introduction)
-- [Technology](#technology)
-- [Features](#features)
-- [Database Models](#database)
 
 ## Introduction
 
