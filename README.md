@@ -8,21 +8,6 @@ A Book ecommerce website using Node js, Expressjs,EJS and Mongoose.
   ![screenshot](/public/images/demo%20web.png)
 - Admin Page
   ![screenshot](/public/images/demo%20admin.png)
-## Run
-
-To run this application, you have to set your own environmental variables. For security reasons, some variables have been hidden from view and used as environmental variables with the help of dotenv package. Below are the variables that you need to set in order to run the application:
-
-- MONGO_URI: this is the connection string of your MongoDB Atlas database.
-
-- JWT_KEY: a secret jsonwebtoken
-
-- STRIPE_SECRET_KEY: the stripe package is used to process payment in the checkout route. To get this, you should set up a stripe account and put your private API key here.
-
-- USER_EMAIL, USER_PASSWORD: the email and password to login to home page
-
-- ADMIN_EMAIL, ADMIN_PASSWORD: the email and password used to log into the admin panel using
-  Now you can run "npm run start" in the terminal and the application should work.
-
 ## Technology
 
 The application is built with:
