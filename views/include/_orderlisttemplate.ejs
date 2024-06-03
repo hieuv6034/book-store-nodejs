@@ -1,0 +1,12 @@
+ <tr>
+    <td><%=order.id%></td>
+    <td><%=order.createdAt.toISOString().split('T')[0]%></td>
+    <td><%=order.book.name%></th>
+    <td><%=order.book.priceafterSale +"$"%></td>
+    <% let checkPaid =order.paid %> <% if(checkPaid===true){ %>
+    <td>Đã Thanh Toán</td>
+    <% } else{ %>
+    <td>Chưa Thanh Toán</td>
+    <% } %>
+  </tr>
+

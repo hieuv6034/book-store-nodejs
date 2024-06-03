@@ -1,0 +1,45 @@
+  <%- include ('../include/_header') %>
+
+    <!-- thanh "danh muc sach" đã được ẩn bên trong + hotline + ho tro truc tuyen -->
+    <%- include('../include/_cartgory') %>
+    <!-- giao diện giỏ hàng  -->
+    <section class="content my-3">
+        <div class="container">
+            <div class="cart-page bg-white">
+                <div class="row">
+                    <!-- giao diện giỏ hàng khi không có item  -->
+
+                    <% if(bookInfo.length===0) { %>
+                    <div class="col-12 cart-empty ">
+                        <div class="py-3 pl-3">
+                            <h6 class="header-gio-hang">GIỎ HÀNG CỦA BẠN <span>(0 sản phẩm)</span></h6>
+                            <div class="cart-empty-content w-100 text-center justify-content-center">
+                                <img src="images/shopping-cart-not-product.png" alt="shopping-cart-not-product">
+                                <p>Chưa có sản phẩm nào trong giỏ hàng của bạn</p>
+                                <a href="/" class="btn nutmuathem mb-3">Mua thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <% } else{ %>  
+
+                    <!-- giao diện giỏ hàng khi có hàng (phần comment màu xanh bên dưới là phần 2 sản phẩm trong giỏ hàng nhưng giờ đã demo bằng jquery) -->
+                    
+                    <% bookInfo.forEach(function(book){ %>
+                        <%- include('../include/_bookcarttemplate',{book}) %>
+                      <% }); %>
+                      <% } %>
+                    <!-- giao diện phần thanh toán nằm bên phải  -->
+                    
+                    <!-- het div cart-steps  -->
+                </div>
+                <!-- het row  -->
+            </div>
+            <!-- het cart-page  -->
+        </div>
+        <!-- het container  -->
+    </section>
+    <!-- het khoi content  -->
+
+
+    <!-- thanh cac dich vu :mien phi giao hang, qua tang mien phi ........ -->
+   <%- include('../include/_footer') %>

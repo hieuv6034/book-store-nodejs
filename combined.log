@@ -1,0 +1,45 @@
+{"level":"error","message":"C:\\Users\\Administrator\\Desktop\\Book store\\views\\admin\\index.ejs:4\n    2|     <!-- End Navbar -->\r\n    3|     <div class=\"container-fluid py-4\">\r\n >> 4|       <%- include('../partials/_statistic') %>\r\n    5|       <div class=\"row mt-4\">\r\n    6|         <div class=\"col-lg-7 mb-lg-0 mb-4\">\r\n    7|           <div class=\"card z-index-2 h-100\">\r\n\nCould not find matching close tag for \"<%=\"."}
+{"level":"error","message":"Reduce of empty array with no initial value"}
+{"level":"error","message":"Reduce of empty array with no initial value"}
+{"level":"error","message":"Reduce of empty array with no initial value"}
+{"level":"error","message":"C:\\Users\\Administrator\\Desktop\\Book store\\views\\admin\\order.ejs:107\n    105|           <div class=\"card-body pt-4 p-3\">\r\n    106|             <ul class=\"list-group\">  \r\n >> 107|               <% items.forEach(function(orderItem){ %>\r\n    108|                 <%- include('../partials/_ordertemplate',{orderItem}) %>\r\n    109|               <% }); %>\r\n    110|             </ul>\r\n\nitems is not defined"}
+{"level":"error","message":"Cannot read property 'role' of undefined"}
+{"level":"error","message":"The Checkout Session's total amount due must add up to at least $0.50 usd"}
+{"level":"error","message":"The Checkout Session's total amount due must add up to at least $0.50 usd"}
+{"level":"error","message":"The Checkout Session's total amount due must add up to at least $0.50 usd"}
+{"level":"error","message":"The Checkout Session's total amount due must add up to at least $0.50 usd"}
+{"level":"error","message":"Invalid sort() argument. Must be a string, object, or array."}
+{"level":"error","message":"Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"confirm is not defined"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"D:\\Book-store\\views\\error.ejs:1\n >> 1|   <%- include('../include/_header') %>\r\n    2|     <%- include('../include/_cartgory') %>\r\n    3|   <div class=\"errorpage\">\r\n    4|       <img class=\"search404\" src=\"/images/search.png\" alt=\"404\">\r\n\nCould not find the include file \"../include/_header\""}
+{"level":"error","message":"D:\\Book-store\\views\\error.ejs:1\n >> 1| <%- include('include/_header') %> <%- include('../../include/_cartgory') %>\r\n    2| <div class=\"errorpage\">\r\n    3|   <img class=\"search404\" src=\"/images/search.png\" alt=\"404\" />\r\n    4|   <img class=\"number404\" src=\"/images/404.png\" alt=\"404\" />\r\n\nD:\\Book-store\\views\\include\\_header.ejs:5\n    3| \r\n    4| <head>\r\n >> 5|     <title><%=title%></title>\r\n    6|     <meta charset=\"UTF-8\">\r\n    7|     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    8|     <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\">\r\n\ntitle is not defined"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'id')"}
+{"level":"error","message":"Reduce of empty array with no initial value"}
+{"level":"error","message":"Reduce of empty array with no initial value"}
+{"level":"error","message":"Reduce of empty array with no initial value"}
+{"level":"error","message":"User validation failed: name: Please provide your name"}
+{"level":"error","message":"E11000 duplicate key error collection: 61cde048f7b37d3fe2144b1b_Book.users index: name_1 dup key: { name: \"doanthanhhiep\" }"}
+{"level":"error","message":"Schema hasn't been registered for model \"ReviewBook\".\nUse mongoose.model(name, schema)"}
+{"level":"error","message":"E11000 duplicate key error collection: Book.users index: email_1 dup key: { email: \"gblhiep1@gmail.com\" }"}
+{"level":"error","message":"E11000 duplicate key error collection: Book.users index: email_1 dup key: { email: \"gblhiep1@gmail.com\" }"}
+{"level":"error","message":"E11000 duplicate key error collection: Book.users index: email_1 dup key: { email: \"gblhiep1@gmail.com\" }"}
+{"level":"error","message":"E11000 duplicate key error collection: Book.users index: email_1 dup key: { email: \"gblhiep1@gmail.com\" }"}
+{"level":"error","message":"E11000 duplicate key error collection: Book.users index: email_1 dup key: { email: \"gblhiep1@gmail.com\" }"}
+{"level":"error","message":"D:\\Book-store\\views\\user\\order.ejs:1\n >> 1| <%- include ('../include/_header') %>\r\n    2| <div class=\"container\">\r\n    3|   <div class=\"row\">\r\n    4|     <div class=\"col-md-12 tr_block_content\">\r\n\nD:\\Book-store\\views\\include\\_header.ejs:53\n    51|             <ul class=\"navbar-nav mb-1 ml-auto\">\r\n    52|                    <!-- neu ton tai user thi` -->\r\n >> 53|                    <% if (user) { %>\r\n    54|                     <div class=\"\">\r\n    55|                         <li class=\"nav-item account d-flex ifuser\" type=\"button\" class=\"\" data-toggle=\"\">\r\n    56|                         <% if (user.photo){ %>\r\n\nuser is not defined"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'filename')"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'filename')"}
+{"level":"error","message":"D:\\Book-store\\views\\user\\order.ejs:207\n    205|                         <div id=\"DIV_429\">\r\n    206|                           <a href=\"https://nobita.vn/san-pham/stadee-cao-thu-tap-6\" id=\"A_430\"\r\n >> 207|                             ><%=bookOrder.name%><br id=\"BR_431\" />\r\n    208|                             <label id=\"LABEL_432\"> Mã SP: id_2355 </label><br id=\"BR_433\"\r\n    209|                           /></a>\r\n    210|                           <label id=\"LABEL_434\"> Số lượng: 1 </label><br id=\"BR_435\" />\r\n\nCannot read properties of null (reading 'name')"}
+{"level":"error","message":"Operation `books.findOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Operation `books.findOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Invalid URL: Non-ASCII characters in URLs must be percent-encoded in order for the URL to be valid."}
+{"level":"error","message":"Invalid URL: Non-ASCII characters in URLs must be percent-encoded in order for the URL to be valid."}
+{"level":"error","message":"Invalid URL: Non-ASCII characters in URLs must be percent-encoded in order for the URL to be valid."}
+{"level":"error","message":"D:\\Book-store\\views\\admin\\order.ejs:108\n    106|             <ul class=\"list-group\">  \r\n    107|               <% items.forEach(function(orderItem){ %>\r\n >> 108|                 <%- include('../partials/_ordertemplate',{orderItem}) %>\r\n    109|               <% }); %>\r\n    110|             </ul>\r\n    111|           </div>\r\n\nCould not find matching close tag for \"<%\"."}
+{"level":"error","message":"Reduce of empty array with no initial value"}
+{"level":"error","message":"D:\\Book-store\\views\\admin\\index.ejs:4\n    2|     <!-- End Navbar -->\r\n    3|     <div class=\"container-fluid py-4\">\r\n >> 4|       <%- include('../partials/_statistic') %>\r\n    5|       <div class=\"row mt-4\">\r\n    6|         <div class=\"col-lg-7 mb-lg-0 mb-4\">\r\n    7|           <div class=\"card z-index-2 h-100\">\r\n\nD:\\Book-store\\views\\partials\\_statistic.ejs:10\n    8|               <p class=\"text-sm mb-0 text-uppercase font-weight-bold\">Month's Money</p>\r\n    9| \r\n >> 10|               <h5 class=\"font-weight-bolder\"><%=total +\"$\"%></h5>\r\n    11|               <p class=\"mb-0\">\r\n    12|                 <span class=\"text-success text-sm font-weight-bolder\">+55%</span>\r\n    13|                 since yesterday\r\n\ntotal is not defined"}
