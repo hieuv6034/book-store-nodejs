@@ -3,8 +3,6 @@
 ## Table of contents
 
 - [Introduction](#introduction)
-- [Demo](#demo)
-- [Run](#run)
 - [Technology](#technology)
 - [Features](#features)
 - [Database Models](#database)
@@ -14,27 +12,10 @@
 A Book ecommerce website using Node js, Expressjs,EJS and Mongoose.
 
 ## Demo
-
 - User Page
   ![screenshot](/public/images/demo%20web.png)
 - Admin Page
   ![screenshot](/public/images/demo%20admin.png)
-
-The application is deployed to Heroku and can be accessed through the following link:
-
-[LoveBook on Heroku](https://lovebook206.herokuapp.com/)
-
-- Test User Credentials
-  - Email: `gblhiep@gmail.com`
-  - Password: `test1234`
-- Test Admin Credentials
-  - Email: `admin@gmail.com`
-  - Password: `test1234`
-- Test Stripe Card Details
-  - Card Number: `4242 4242 4242 4242`
-  - Expiry: `Any Future Month`
-  - CVV: `Any three Digit Number`
-
 ## Run
 
 To run this application, you have to set your own environmental variables. For security reasons, some variables have been hidden from view and used as environmental variables with the help of dotenv package. Below are the variables that you need to set in order to run the application:
